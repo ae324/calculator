@@ -1,3 +1,7 @@
+
+[![Coverage Status](https://coveralls.io/repos/github/ae324/calculator/badge.svg?branch=master)](https://coveralls.io/github/ae324/calculator?branch=master)
+[![Build Status](https://travis-ci.org/ae324/calculator.svg?branch=master)](https://travis-ci.org/ae324/calculator)
+
 **Tutorial: Implementing Object-Oriented Principles in JavaScript** <br>
                   By: Allison Eglow
 
@@ -178,11 +182,3 @@ Output:
 In the above example we define an Person Object with certain property and method and then we inherit the Person Object in the Student Object and use all the property and method of person Object as well define certain property and methods for Student.
 Note: The Person and Student object both have same method i.e toString(), this is called as Method Overriding. Method Overriding allows method in a child class to have the same name and method signature as that of a parent class.
 In the above code, super keyword is used to refer immediate parent class instance variable.
-
-
-<br>
-Travis CI and Coverage % from Coveralls:
-
-[![Coverage Status](https://coveralls.io/repos/github/ae324/calculator/badge.svg?branch=master)](https://coveralls.io/github/ae324/calculator?branch=master)
-[![Build Status](https://travis-ci.org/ae324/calculator.svg?branch=master)](https://travis-ci.org/ae324/calculator)
-
