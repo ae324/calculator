@@ -116,8 +116,11 @@ console.log(bike2.maker);
 console.log(bike1.getDetails());
 ```
 Output:
+
+
 <img src="imgs/Screenshot-1011-e1550812807408.png" style="width:300px; height:200px"> </img>
 
+In the above example we simply create an person Object using the constructor and Initialize it property and use it functions we are not bother about the implementation details. We are working with an Objects interface without considering the implementation details.
 
 <br>
 
@@ -182,3 +185,6 @@ Output:
 In the above example we define an Person Object with certain property and method and then we inherit the Person Object in the Student Object and use all the property and method of person Object as well define certain property and methods for Student.
 Note: The Person and Student object both have same method i.e toString(), this is called as Method Overriding. Method Overriding allows method in a child class to have the same name and method signature as that of a parent class.
 In the above code, super keyword is used to refer immediate parent class instance variable.
+
+
+<br>
