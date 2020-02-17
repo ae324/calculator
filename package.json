@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "node index.js",
     "coverage": "jest --coverage",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+    "coveralls": "jest --coverage/tests/coverage/lcov.info | coveralls"
   },
   "keywords": [],
   "author": "Allison Eglow",
