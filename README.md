@@ -38,7 +38,7 @@ There are certain features that make a Language Object Oriented like:
   console.log(person.phone_number.landline); `
 
 ```
-<img src="../imgs/Screenshot-991-e1550812338444.png" style="width:300px; height:200px"> </img>
+<img src="imgs/Screenshot-991-e1550812338444.png" style="width:300px; height:200px"> </img>
 
 **Classes**
 
