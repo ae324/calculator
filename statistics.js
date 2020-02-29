@@ -12,3 +12,4 @@ class Statistics extends Calculator {
 
 }
 module.exports = Statistics;
+
