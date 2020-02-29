@@ -1,10 +1,15 @@
-const sum = require('./sum');
+const addition = require('./addition');
 const multiply = require('./multiply');
 const divide = require('./divide');
+const difference = require('./subtraction');
 
 class MathOperations {
-    static sum(a,b) {
-        return sum(a,b);
+    static sum(a = null, b = null) {
+        if(Array.isArray(a)) {
+            return addition.sum(a);
+        } else {
+            return addition.sum(a,b);
+        }
     }
     static product(a,b) {
         return multiply(a,b);
@@ -12,14 +17,9 @@ class MathOperations {
     static quotient(a,b) {
         return divide(a,b);
     }
-    static sumList(myarray = []) {
-        let Result = 0;
-        myarray.forEach(function (item) {
-            Result = sum(Result, item);
-        });
-        return Result;
+    static difference(a,b) {
+        return difference.difference(a,b);
     }
-
 }
 
 module.exports = MathOperations;
